@@ -1,0 +1,1 @@
+{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["export type articleType = {\n  id: string;\n  title?: string;\n  description?: string;\n  slug?: string;\n  status?: string;\n};\n\nexport type articlesType = [articleType] | [] | undefined;\n"]},"metadata":{},"sourceType":"module"}
